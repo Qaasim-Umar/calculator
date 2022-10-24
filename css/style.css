@@ -28,7 +28,8 @@ main {
   border-radius: 0.5rem;
 }
 .container .display {
-  border: 2px rgb(116, 3, 3) solid;
+  box-shadow: 0 0 10px #850202 inset;
+  background-color: #070707;
   height: 9.5rem;
   max-width: 16rem;
   width: auto;
