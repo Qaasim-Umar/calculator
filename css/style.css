@@ -1,0 +1,78 @@
+@import url("https://fonts.googleapis.com/css2?family=PT+Serif:wght@700&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  outline: 0;
+  transition: all 1s ease;
+  box-sizing: border-box;
+  font-family: "PT Serif", serif;
+}
+
+body {
+  background-color: black;
+  background-repeat: no-repeat;
+}
+
+main {
+  height: 100vh;
+  width: 100vw;
+  display: grid;
+  place-items: center;
+}
+
+.container {
+  box-shadow: 0 0 15px #ff0000;
+  height: auto;
+  width: auto;
+  padding: 1rem;
+  border-radius: 0.5rem;
+}
+.container .display {
+  border: 2px rgb(116, 3, 3) solid;
+  height: 9.5rem;
+  max-width: 16rem;
+  width: auto;
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  color: #ffffff;
+}
+
+button {
+  height: 3.75rem;
+  width: 3.75rem;
+  font-size: 1.2rem;
+  border: none;
+  color: #ffffff;
+  border-radius: 5%;
+  transition: all 150ms ease-in;
+  background-color: rgb(158, 4, 4);
+}
+button:hover {
+  background: transparent;
+  color: #ffffff;
+  border: 1px solid #8d0202;
+}
+
+#equals {
+  height: 7.625rem;
+  background-color: #ecd8ea;
+  color: #000000;
+  border: none;
+}
+#equals:hover {
+  background: transparent;
+  color: #ffffff;
+  border: 1px solid #8d0202;
+}
+
+.operator {
+  background: transparent;
+  color: #ffffff;
+  border: 2px solid #8d0202;
+}
+.operator:hover {
+  background-color: rgb(158, 4, 4);
+}/*# sourceMappingURL=style.css.map */
